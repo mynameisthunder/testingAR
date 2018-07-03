@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3534D3020E4405300A90DEC /* testing out shit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing out shit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3534D3020E4405300A90DEC /* Testing out Stuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing out Stuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3534D3320E4405300A90DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3534D3520E4405300A90DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3534D3820E4405400A90DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3534D3A20E4405800A90DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3534D3D20E4405800A90DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3534D3F20E4405800A90DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3534D4420E4405900A90DEC /* testing out shitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testing out shitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3534D4420E4405900A90DEC /* Testing out StuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing out StuffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3534D4820E4405900A90DEC /* testing_out_shitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing_out_shitTests.swift; sourceTree = "<group>"; };
 		E3534D4A20E4405900A90DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3534D4F20E4405900A90DEC /* testing out shitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testing out shitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3534D4F20E4405900A90DEC /* Testing out StuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing out StuffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3534D5320E4405900A90DEC /* testing_out_shitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing_out_shitUITests.swift; sourceTree = "<group>"; };
 		E3534D5520E4405900A90DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		E3534D2720E4405300A90DEC = {
 			isa = PBXGroup;
 			children = (
-				E3534D3220E4405300A90DEC /* testing out shit */,
-				E3534D4720E4405900A90DEC /* testing out shitTests */,
-				E3534D5220E4405900A90DEC /* testing out shitUITests */,
+				E3534D3220E4405300A90DEC /* Test */,
+				E3534D4720E4405900A90DEC /* Testing Tests */,
+				E3534D5220E4405900A90DEC /* Testing UITests */,
 				E3534D3120E4405300A90DEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		E3534D3120E4405300A90DEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3534D3020E4405300A90DEC /* testing out shit.app */,
-				E3534D4420E4405900A90DEC /* testing out shitTests.xctest */,
-				E3534D4F20E4405900A90DEC /* testing out shitUITests.xctest */,
+				E3534D3020E4405300A90DEC /* Testing out Stuff.app */,
+				E3534D4420E4405900A90DEC /* Testing out StuffTests.xctest */,
+				E3534D4F20E4405900A90DEC /* Testing out StuffUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3534D3220E4405300A90DEC /* testing out shit */ = {
+		E3534D3220E4405300A90DEC /* Test */ = {
 			isa = PBXGroup;
 			children = (
 				E3534D3320E4405300A90DEC /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				E3534D3C20E4405800A90DEC /* LaunchScreen.storyboard */,
 				E3534D3F20E4405800A90DEC /* Info.plist */,
 			);
-			path = "testing out shit";
+			path = Test;
 			sourceTree = "<group>";
 		};
-		E3534D4720E4405900A90DEC /* testing out shitTests */ = {
+		E3534D4720E4405900A90DEC /* Testing Tests */ = {
 			isa = PBXGroup;
 			children = (
 				E3534D4820E4405900A90DEC /* testing_out_shitTests.swift */,
 				E3534D4A20E4405900A90DEC /* Info.plist */,
 			);
-			path = "testing out shitTests";
+			path = "Testing Tests";
 			sourceTree = "<group>";
 		};
-		E3534D5220E4405900A90DEC /* testing out shitUITests */ = {
+		E3534D5220E4405900A90DEC /* Testing UITests */ = {
 			isa = PBXGroup;
 			children = (
 				E3534D5320E4405900A90DEC /* testing_out_shitUITests.swift */,
 				E3534D5520E4405900A90DEC /* Info.plist */,
 			);
-			path = "testing out shitUITests";
+			path = "Testing UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3534D2F20E4405300A90DEC /* testing out shit */ = {
+		E3534D2F20E4405300A90DEC /* Testing out Stuff */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3534D5820E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shit" */;
+			buildConfigurationList = E3534D5820E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out Stuff" */;
 			buildPhases = (
 				E3534D2C20E4405300A90DEC /* Sources */,
 				E3534D2D20E4405300A90DEC /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "testing out shit";
+			name = "Testing out Stuff";
 			productName = "testing out shit";
-			productReference = E3534D3020E4405300A90DEC /* testing out shit.app */;
+			productReference = E3534D3020E4405300A90DEC /* Testing out Stuff.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3534D4320E4405900A90DEC /* testing out shitTests */ = {
+		E3534D4320E4405900A90DEC /* Testing out StuffTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3534D5B20E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shitTests" */;
+			buildConfigurationList = E3534D5B20E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out StuffTests" */;
 			buildPhases = (
 				E3534D4020E4405900A90DEC /* Sources */,
 				E3534D4120E4405900A90DEC /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				E3534D4620E4405900A90DEC /* PBXTargetDependency */,
 			);
-			name = "testing out shitTests";
+			name = "Testing out StuffTests";
 			productName = "testing out shitTests";
-			productReference = E3534D4420E4405900A90DEC /* testing out shitTests.xctest */;
+			productReference = E3534D4420E4405900A90DEC /* Testing out StuffTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E3534D4E20E4405900A90DEC /* testing out shitUITests */ = {
+		E3534D4E20E4405900A90DEC /* Testing out StuffUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3534D5E20E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shitUITests" */;
+			buildConfigurationList = E3534D5E20E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out StuffUITests" */;
 			buildPhases = (
 				E3534D4B20E4405900A90DEC /* Sources */,
 				E3534D4C20E4405900A90DEC /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				E3534D5120E4405900A90DEC /* PBXTargetDependency */,
 			);
-			name = "testing out shitUITests";
+			name = "Testing out StuffUITests";
 			productName = "testing out shitUITests";
-			productReference = E3534D4F20E4405900A90DEC /* testing out shitUITests.xctest */;
+			productReference = E3534D4F20E4405900A90DEC /* Testing out StuffUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3534D2B20E4405300A90DEC /* Build configuration list for PBXProject "testing out shit" */;
+			buildConfigurationList = E3534D2B20E4405300A90DEC /* Build configuration list for PBXProject "Testing out Stuff" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3534D2F20E4405300A90DEC /* testing out shit */,
-				E3534D4320E4405900A90DEC /* testing out shitTests */,
-				E3534D4E20E4405900A90DEC /* testing out shitUITests */,
+				E3534D2F20E4405300A90DEC /* Testing out Stuff */,
+				E3534D4320E4405900A90DEC /* Testing out StuffTests */,
+				E3534D4E20E4405900A90DEC /* Testing out StuffUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		E3534D4620E4405900A90DEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3534D2F20E4405300A90DEC /* testing out shit */;
+			target = E3534D2F20E4405300A90DEC /* Testing out Stuff */;
 			targetProxy = E3534D4520E4405900A90DEC /* PBXContainerItemProxy */;
 		};
 		E3534D5120E4405900A90DEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3534D2F20E4405300A90DEC /* testing out shit */;
+			target = E3534D2F20E4405300A90DEC /* Testing out Stuff */;
 			targetProxy = E3534D5020E4405900A90DEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,12 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "testing out shit/Info.plist";
+				DEVELOPMENT_TEAM = GKQ7N97D4Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AKFGWOOHWOOH.testing-out-shit";
+				PRODUCT_BUNDLE_IDENTIFIER = "AKFGWOOHWOOH.testing-all-my-stuff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "testing out shit/Info.plist";
+				DEVELOPMENT_TEAM = GKQ7N97D4Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AKFGWOOHWOOH.testing-out-shit";
+				PRODUCT_BUNDLE_IDENTIFIER = "AKFGWOOHWOOH.testing-all-my-stuff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testing out shit.app/testing out shit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing out Stuff.app/Testing out Stuff";
 			};
 			name = Debug;
 		};
@@ -496,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testing out shit.app/testing out shit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing out Stuff.app/Testing out Stuff";
 			};
 			name = Release;
 		};
@@ -541,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3534D2B20E4405300A90DEC /* Build configuration list for PBXProject "testing out shit" */ = {
+		E3534D2B20E4405300A90DEC /* Build configuration list for PBXProject "Testing out Stuff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3534D5620E4405900A90DEC /* Debug */,
@@ -550,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3534D5820E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shit" */ = {
+		E3534D5820E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out Stuff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3534D5920E4405900A90DEC /* Debug */,
@@ -559,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3534D5B20E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shitTests" */ = {
+		E3534D5B20E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out StuffTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3534D5C20E4405900A90DEC /* Debug */,
@@ -568,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3534D5E20E4405900A90DEC /* Build configuration list for PBXNativeTarget "testing out shitUITests" */ = {
+		E3534D5E20E4405900A90DEC /* Build configuration list for PBXNativeTarget "Testing out StuffUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3534D5F20E4405900A90DEC /* Debug */,
